@@ -6,7 +6,7 @@ sudo useradd -m $LINUX_USERNAME
 sudo adduser $LINUX_USERNAME sudo
 echo "$LINUX_USERNAME:$LINUX_USER_PASSWORD" | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
-sudo hostname $LINUX_MACHINE_NAME
+sudo hostname $fDenyTSConnections
 
 if [[ -z "$NGROK_AUTH_TOKEN" ]]; then
   echo "Please set 'NGROK_AUTH_TOKEN'"
