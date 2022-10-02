@@ -1,7 +1,6 @@
 name: Ubuntu SSH Virtual Machine 
 on: 
   workflow_dispatch:
-  timeout-minutes: 9999
 defaults:
   run:
     shell: bash
