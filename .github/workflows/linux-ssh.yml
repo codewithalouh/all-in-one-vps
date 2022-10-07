@@ -4,7 +4,7 @@ on:
 defaults:
   run:
    shell: bash
-timeout-minutes: 9999
+
     
 jobs:
   build:
