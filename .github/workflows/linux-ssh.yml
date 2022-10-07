@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
 defaults:
   run:
-    shell: bash
-    
+   shell: bash
+timeout-minutes: 9999
     
 jobs:
   build:
